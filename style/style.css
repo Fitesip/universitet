@@ -308,106 +308,6 @@ body {
     }
 }
 
-@media screen and (min-width: 300px) and (max-width: 991px){
-    .govno {
-        flex-direction: column;
-    }
-    .logotip {
-        padding-bottom: 20px;
-    }
-    .imgblockbig {
-        max-width: 992px;
-        padding-top: 0;
-    }
-    .imgblockmini {
-        max-width: 992px;
-        width: 100%;
-    }
-    .miniblock {
-        width: 100%;
-    }
-    .block1 {
-        max-width: 992px;
-        max-height: 992px;
-    }
-    .block2 {
-        max-height: 992px;
-        max-width: 992px;
-        margin-left: 0;
-    }
-    .nigger {
-        align-items: center;
-        flex-wrap: wrap;
-        flex-direction: column;
-        margin-top: 70px;
-        gap: 20px;
-    }
-    .miniblock {
-        flex-direction: column;
-    }
-    .blockmini1 {
-        max-width: 992px;
-        max-height: 992px;
-        height: 100%;
-        margin-left: 0;
-        margin-top: 20px;
-    }
-    .blockmini2 {
-        max-width: 992px;
-        max-height: 992px;
-        height: 100%;
-        margin-left: 0;
-    }
-    .form {
-        margin-top: 70px;
-    }
-    .krasivo {
-        max-height: 250px;
-        margin-top: 602px;
-        max-width: 950px;
-        width: 100%;
-        border-top-left-radius: 0;
-        border-bottom-right-radius: 30px;
-    }
-    .belok {
-        padding-top: 52px;
-    }
-    .formblock {
-        margin-left: 70px;
-        flex-wrap: wrap;
-        flex-direction: row;
-        gap: 5px 50px;
-    }
-    .input {
-
-    }
-    .form button {
-        margin-top: 20px;
-        margin-bottom: 250px;
-        padding: 25px 45px;
-        width: 100%;
-    }
-    .formtext {
-        margin-left: 70px;
-    }
-    .blocktext {
-        font-size: 50px;
-        max-width: 560px;
-        padding-top: 60px;
-        padding-left: 60px;
-    }
-    .defka {
-        opacity: 0;
-        max-width: 345px;
-        max-height: 592px;
-    }
-    .header {
-        padding-bottom: 10px;
-    }
-    .top3 {
-        padding-top: 104px;
-    }
-}
 .govno {
     display: flex;
     justify-content: space-between;
@@ -429,10 +329,13 @@ body {
     width: 100%;
     flex-shrink: 0;
     background-color: #fff;
+    min-height: 982px;
+    height: 100%;
 }
 .vse__top {
+    display: flex;
     position: relative;
-    min-height: 982px;
+    max-height: 982px;
     height: 100%;
 }
 .vsetext {
@@ -442,14 +345,11 @@ body {
     gap: 40px;
 }
 .kartinka {
-    min-width: 1920px;
-    left: -240px;
-    right: 0;
-    bottom: 0;
+    max-width: 1920px;
+    margin-left: -240px;
     display: flex;
     position: absolute;
     flex-shrink: 0;
-    height: 100%;
 }
 .vse {
     position: absolute;
@@ -463,13 +363,13 @@ body {
     margin-right: 964px;
 }
 .blocks {
-    min-height: 1600px;
-    min-width: 1440px;
+    max-width: 1440px;
     padding-top: 140px;
     display: inline-flex;
     align-items: flex-start;
     gap: 20px;
     flex-wrap: wrap;
+
 }
 .blocknews {
     display: flex;
@@ -498,8 +398,8 @@ body {
     margin-top: 320px;
 }
 .evreitext {
-    margin-top: 420px;
-    margin-left: 45px;
+    padding-top: 420px;
+    padding-left: 45px;
     position: absolute;
     width: 620px;
     color: #000;
@@ -841,4 +741,135 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 100%; /* 15px */
+}
+@media screen and (min-width: 300px) and (max-width: 991px){
+    .govno {
+        flex-direction: column;
+    }
+    .logotip {
+        padding-bottom: 20px;
+    }
+    .imgblockbig {
+        max-width: 992px;
+        padding-top: 0;
+    }
+    .imgblockmini {
+        max-width: 992px;
+        width: 100%;
+    }
+    .miniblock {
+        width: 100%;
+    }
+    .block1 {
+        max-width: 992px;
+        max-height: 992px;
+    }
+    .block2 {
+        max-height: 992px;
+        max-width: 992px;
+        margin-left: 0;
+    }
+    .nigger {
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-top: 70px;
+        gap: 20px;
+    }
+    .miniblock {
+        flex-direction: column;
+    }
+    .blockmini1 {
+        max-width: 992px;
+        max-height: 992px;
+        height: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .blockmini2 {
+        max-width: 992px;
+        max-height: 992px;
+        height: 100%;
+        margin-left: 0;
+    }
+    .form {
+        margin-top: 70px;
+    }
+    .krasivo {
+        max-height: 250px;
+        margin-top: 602px;
+        max-width: 950px;
+        width: 100%;
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 30px;
+    }
+    .belok {
+        padding-top: 52px;
+    }
+    .formblock {
+        margin-left: 70px;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 5px 50px;
+    }
+    .input {
+
+    }
+    .form button {
+        margin-top: 20px;
+        margin-bottom: 250px;
+        padding: 25px 45px;
+        width: 100%;
+    }
+    .formtext {
+        margin-left: 70px;
+    }
+    .blocktext {
+        font-size: 50px;
+        max-width: 560px;
+        padding-top: 60px;
+        padding-left: 60px;
+    }
+    .defka {
+        opacity: 0;
+        max-width: 345px;
+        max-height: 592px;
+    }
+    .header {
+        padding-bottom: 10px;
+    }
+    .top3 {
+        padding-top: 104px;
+    }
+    .kartinka {
+        height: 100%;
+        max-height: 620px;
+    }
+    .vse__hero {
+        min-height: 620px;
+    }
+    .vse__top {
+        min-height: 620px;
+    }
+    .blocks {
+        flex-direction: column;
+        max-width: 896px;
+        flex-wrap: nowrap;
+    }
+    .blocki {
+        align-items: center;
+        display: flex;
+    }
+    .kartablock {
+        position: relative;
+        max-width: 896px;
+    }
+    .karta {
+        max-width: 896px;
+        display: flex;
+    }
+    .map {
+
+        max-width: 896px;
+    }
 }

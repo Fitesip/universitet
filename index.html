@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <title>Университет Образования</title>
+    <link rel="icon" href="images/logo.svg">
     <link rel="stylesheet" href="style/vendor.css">
     <link rel="stylesheet" href="style/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
 
 </head>
 <body>
@@ -21,7 +20,8 @@
                 <div class="pages">
                     <a href="index.html" class="page">Главная</a>
                     <a href="pages/news.html" class="page">Новости</a>
-                    <a href="pages/adress.html" class="page">Адреса</a>
+                    <a href="pages/address.html" class="page">Контакты</a>
+                    <a href="pages/sostav.html" class="page">Состав</a>
                     <a href="pages/about.html" class="page">О нас</a>
                 </div>
             </div>
@@ -32,8 +32,8 @@
             <div class="top">
                 <div class="toptext">
                     <h1 class="top3">В топ-3 лучших вузов страны</h1>
-                    <button class="button">
-                        Узнать программу
+                    <button class="button" onclick="window.location.href='#form'">
+                        Вступить в программу
                     </button>
                 </div>
                 <div>
@@ -68,7 +68,7 @@
     </div>
     <div class="slave">
         <div class="container">
-            <div class="form">
+            <div class="form" id="form">
                 <div class="krasivo">
                     <img src="images/logo2.svg" class="belok">
                 </div>
@@ -79,35 +79,36 @@
                     <input type="text" class="input" placeholder="Отчество (при наличии)">
                     <input type="text" class="input" placeholder="Электронная почта">
                     <input type="text" class="input" placeholder="Мобильный телефон">
-                    <div class="button">
-                        <p class="buttontext">Узнать программу</p>
+                    <button class="button">
+                        Вступить в программу
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="govno">
+                    <div class="logotip">
+                        <img src="images/logo.svg" class="logo">
+                        <p class="nazvanie">Университет Образования</p>
+                    </div>
+                    <div class="pages">
+                        <a href="index.html" class="page">Главная</a>
+                        <a href="pages/news.html" class="page">Новости</a>
+                        <a href="pages/address.html" class="page">Контакты</a>
+                        <a href="pages/sostav.html" class="page">Состав</a>
+                        <a href="pages/about.html" class="page">О нас</a>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="footer">
-        <div class="container">
-            <div class="footer__inner">
-                <div class="logotip">
-                    <img src="images/logo.svg" class="logo">
-                    <p class="nazvanie">Университет Образования</p>
-                </div>
-                <div class="pages">
-                    <a href="index.html" class="page">Главная</a>
-                    <a href="pages/news.html" class="page">Новости</a>
-                    <a href="pages/adress.html" class="page">Адреса</a>
-                    <a href="pages/about.html" class="page">О нас</a>
+            <div class="prava">
+                <div class="zashita">
+                    <p class="infa">© 2024-2024 ФГАОУ ВО Университет Образования</p>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="prava">
-        <div class="container">
-            <div class="zashita">
-                <p class="infa">© 2008-2024 ФГАОУ ВО Университет Образования</p>
-            </div>
-        </div>
-    </div>
+    </footer>
 </body>
 </html>

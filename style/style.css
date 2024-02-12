@@ -279,35 +279,6 @@ body {
     width: 100%;
 }
 
-@media screen and (min-width: 992px) and (max-width: 1199.98px) {
-    .govno {
-        flex-direction: column;
-    }
-    .logotip {
-        padding-bottom: 20px;
-    }
-    .imgblockbig {
-        padding-top: 0;
-    }
-    .block1 {
-        max-height: 385px;
-    }
-    .block2 {
-        max-height: 385px;
-
-    }
-    .nigger {
-        flex-wrap: wrap;
-    }
-    .miniblock {
-        flex-wrap: nowrap;
-    }
-    .blockmini1 {
-        margin-left: 0;
-        margin-top: 20px;
-    }
-}
-
 .govno {
     display: flex;
     justify-content: space-between;
@@ -741,6 +712,144 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 100%; /* 15px */
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .govno {
+        flex-direction: column;
+    }
+    .logotip {
+        padding-bottom: 20px;
+    }
+    .imgblockbig {
+        padding-top: 0;
+    }
+    .block1 {
+        max-height: 385px;
+    }
+    .block2 {
+        max-height: 385px;
+
+    }
+    .nigger {
+        flex-wrap: wrap;
+    }
+    .miniblock {
+        flex-wrap: nowrap;
+    }
+    .blockmini1 {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .top3 {
+        font-size: 64px;
+        width: 550px;
+    }
+    .nigger {
+        justify-content: center;
+    }
+    .blocks {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        padding-top: 70px;
+    }
+    .kartinka {
+        max-width: 1024px;
+        max-height: 520px;
+        margin-left: -15px;
+    }
+    .vse {
+        margin-top: 160px;
+    }
+    .vse__hero {
+        min-height: 520px;
+        background: unset;
+    }
+    .karta {
+        width: 944px;
+    }
+    .map {
+        width: 944px;
+    }
+    .sostav {
+        padding: 75px;
+        justify-content: space-between;
+        gap: 75px;
+    }
+    .frametop {
+        margin-left: unset;
+    }
+    .frame {
+        padding: unset;
+    }
+    .frameleft {
+        padding: unset;
+    }
+    .rebyata {
+        width: 944px;
+        min-height: 340px;
+    }
+    .ebalo {
+        padding-top: unset;
+        flex-wrap: wrap;
+    }
+    .rebyata img {
+        width: 944px;
+    }
+    .director {
+        justify-content: center;
+    }
+    .lojka {
+        padding-left: 466px;
+    }
+    .dirtext {
+        padding-top: 150px;
+        padding-left: 200px;
+    }
+    .blocktexta img {
+        width: 500px;
+        min-height: 0;
+        padding-left: 170px;
+    }
+    .popop {
+        padding-top: 0;
+    }
+    .pop {
+        font-size: 16px;
+        width: 400px;
+        margin-top: 50px;
+    }
+    .blocktexta3 img {
+        width: 500px;
+        min-height: 0;
+        padding-left: 170px;
+    }
+    .popop3 {
+        padding-top: 0;
+    }
+    .pop3 {
+        font-size: 16px;
+        width: 400px;
+        margin-top: 50px;
+    }
+    .blocktexta2 img {
+        width: 500px;
+        min-height: 0;
+        padding-left: 620px;
+    }
+    .popop2 {
+        padding-top: 0;
+        padding-left: 170px;
+    }
+    .pop2 {
+        font-size: 16px;
+        width: 400px;
+        margin-top: 50px;
+        padding-left: 170px;
+    }
+    .blocktexta3 {
+        padding-bottom: 90px;
+    }
 }
 @media screen and (min-width: 300px) and (max-width: 991px){
     .govno {
